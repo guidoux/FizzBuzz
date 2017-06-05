@@ -27,4 +27,9 @@ public class FizzBuzzTest {
     public void doFizzBuzzShouldReturnFizzWhenInputIs3() {
         assertEquals("Fizz", fizzBuzz.doFizzBuzz(3));
     }
+
+    @Test
+    public void doFizzBuzzShouldReturn4whenInputIs4() {
+        assertEquals("4", fizzBuzz.doFizzBuzz(4));
+    }
 }
