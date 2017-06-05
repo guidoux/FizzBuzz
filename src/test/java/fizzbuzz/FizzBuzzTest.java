@@ -14,12 +14,17 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void checkFizzBuzzShouldReturn1whenInputIs1() {
-        assertEquals("1", fizzBuzz.checkFizzBuzz(1));
+    public void doFizzBuzzShouldReturn1whenInputIs1() {
+        assertEquals("1", fizzBuzz.doFizzBuzz(1));
     }
 
     @Test
-    public void checkFizzBuzzShouldReturn2whenInputIs2() {
-        assertEquals("2", fizzBuzz.checkFizzBuzz(2));
+    public void doFizzBuzzShouldReturn2whenInputIs2() {
+        assertEquals("2", fizzBuzz.doFizzBuzz(2));
+    }
+
+    @Test
+    public void doFizzBuzzShouldReturnFizzWhenInputIs3() {
+        assertEquals("Fizz", fizzBuzz.doFizzBuzz(3));
     }
 }

@@ -5,7 +5,14 @@ public class FizzBuzz {
 
     public FizzBuzz() {}
 
-    public String checkFizzBuzz(int input) {
-        return Integer.toString(input);
+    public String doFizzBuzz(int input) {
+        String result;
+        if (input % 3 == 0) {
+            result = "Fizz";
+        }
+        else {
+            result = Integer.toString(input);
+        }
+        return result;
     }
 }
