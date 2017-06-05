@@ -1,0 +1,6 @@
+/build/*
+fizzbuzz.iml
+.idea/*
+.gradle/*
+fizzbuzz.ipr
+fizzbuzz.iws
