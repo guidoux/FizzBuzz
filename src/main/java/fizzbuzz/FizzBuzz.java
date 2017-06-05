@@ -6,6 +6,6 @@ public class FizzBuzz {
     public FizzBuzz() {}
 
     public String checkFizzBuzz(int input) {
-        return Integer.toString(1);
+        return Integer.toString(input);
     }
 }
